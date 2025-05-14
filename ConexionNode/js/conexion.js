@@ -3,7 +3,8 @@
 // let con = mysql.createConnection({
 //   host: "localhost",
 //   user: "root",
-//   password: ""
+//   password: "Root.123456",
+//   database: "nodejs"
 // });
 
 // con.connect(function(err) {
@@ -19,15 +20,15 @@ const mysql = require('mysql2');
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: 'Root.123456',
   database: 'nodejs'
 });
 // connect to the MySQL database
 connection.connect((error)=>{
 if(error){
-console.error('Error connecting to MySQL database:' );
+console.error('Error connecting to MySQL database:'+ error );
 }else{
-console.log('Connected to MySQL database!');
+console.log('conectado a  MySQL database!');
 }
 });
 // close the MySQL connection
