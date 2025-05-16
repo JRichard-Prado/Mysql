@@ -1,2 +1,33 @@
 # Mysql
-Curso de Mysql
+
+1. `npm init -y`
+```bash
+    \Mysql\nodeMysql\package.
+    json:
+
+    {
+    "name": "nodemysql",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test sp
+    ecified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+    }
+
+```
+3. `$ npm install mysql`
+   ```bash
+
+        $ npm install mysql
+
+        added 11 packages, and audited 12 packages in 3s
+
+        found 0 vulnerabilities
+
+   ```
+   ![nodules](nodeMysql/assets/img/modules.PNG)
