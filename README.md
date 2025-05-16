@@ -1,6 +1,6 @@
 # Mysql
 
-1. `npm init -y`
+1. Iniciar node `npm init -y`
 ```bash
     \Mysql\nodeMysql\package.
     json:
@@ -20,7 +20,7 @@
     }
 
 ```
-3. `$ npm install mysql`
+3. Dependencia  `$ npm install mysql2`
    ```bash
 
         $ npm install mysql
